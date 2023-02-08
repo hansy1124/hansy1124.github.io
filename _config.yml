@@ -6,7 +6,7 @@ description: >
  Bunche Hall 
  Los Angeles, CA 90095
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://doeun-kim.github.io" # the base hostname & protocol for your site
+url: "https://hansy1124.github.io/" # the base hostname & protocol for your site
 github_username:  doeun-kim
 encoding: UTF-8
 # Build settings
