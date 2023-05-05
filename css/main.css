@@ -48,7 +48,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 15px; }
+  margin-left: 30px; }
 
 li > ul,
 li > ol {
@@ -110,18 +110,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1000px);
-  max-width: calc(1000px));
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-right: 100px;
-  padding-left: 100px; }
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
   @media screen and (max-width: 1000px) {
     .wrapper {
-      max-width: -webkit-calc(1000px);
-      max-width: calc(1000px);
-      padding-right: 100px;
-      padding-left: 100px; } }
+      max-width: -webkit-calc(1000px - (30px));
+      max-width: calc(1000px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
 
 /**
  * Clearfix
@@ -189,7 +189,7 @@ SVG Icons - svgicons.sparkk.fr
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
-      margin-left: 0px; }
+      margin-left: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
