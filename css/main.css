@@ -112,8 +112,8 @@ pre {
 .wrapper {
   max-width: -webkit-calc(1000px - (30px * 2));
   max-width: calc(1000px - (30px * 2));
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 1000px) {
@@ -189,7 +189,7 @@ SVG Icons - svgicons.sparkk.fr
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
-      margin-left: 15px; }
+      margin-left: 0px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
