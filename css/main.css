@@ -110,18 +110,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(1000px);
+  max-width: calc(1000px));
   margin-right: 0px;
   margin-left: 0px;
   padding-right: 100px;
   padding-left: 100px; }
   @media screen and (max-width: 1000px) {
     .wrapper {
-      max-width: -webkit-calc(1000px - (30px));
-      max-width: calc(1000px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: -webkit-calc(1000px);
+      max-width: calc(1000px);
+      padding-right: 100px;
+      padding-left: 100px; } }
 
 /**
  * Clearfix
