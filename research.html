@@ -10,6 +10,32 @@ $(function(){
   $("#footer").load("footer.html");
 });
 </script>
+  
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>  
+  
 </head>
 
 <body> 
@@ -41,6 +67,9 @@ $(function(){
             </div>
           <br>
         </p>
+        <button type="button" class="collapsible">Open Collapsible</button>
+        <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           
         <p> <strong>Dollar Liquidity Flows in Small-Open Economies</strong> (with <a class="page-link" href="http://www.sakibigio.net/"> Saki Bigio</a> and Paul Castillo) <br>
             &nbsp - [Draft & <a href="Bigio_Castillo_Han_2023_Slide.pdf" target="_blank">Slides</a>] <br>
